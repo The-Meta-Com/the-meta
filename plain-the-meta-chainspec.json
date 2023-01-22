@@ -11,7 +11,7 @@
     "tokenSymbol": "UNIT"
   },
   "relay_chain": "rococo-local",
-  "para_id": 1000,
+  "para_id": 2003,
   "codeSubstitutes": {},
   "genesis": {
     "runtime": {
@@ -20,7 +20,7 @@
       },
       "parachainSystem": null,
       "parachainInfo": {
-        "parachainId": 1000
+        "parachainId": 2003
       },
       "balances": {
         "balances": [
