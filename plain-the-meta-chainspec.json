@@ -1,5 +1,5 @@
 {
-  "name": "Local Testnet",
+  "name": "The-Meta Testnet",
   "id": "local_testnet",
   "chainType": "Local",
   "bootNodes": [],
@@ -11,7 +11,7 @@
     "tokenSymbol": "UNIT"
   },
   "relay_chain": "rococo-local",
-  "para_id": 2003,
+  "para_id": 4215,
   "codeSubstitutes": {},
   "genesis": {
     "runtime": {
@@ -20,14 +20,10 @@
       },
       "parachainSystem": null,
       "parachainInfo": {
-        "parachainId": 2003
+        "parachainId": 4215
       },
       "balances": {
         "balances": [
-          [
-            "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY",
-            1152921504606846976
-          ],
           [
             "5HggXHZdjMsUxSF9Wbnw9TzC8xoSwqV5niGCRPVzQF5AYi8U",
             1152921504606846976
