@@ -4,13 +4,13 @@
   "chainType": "Local",
   "bootNodes": [],
   "telemetryEndpoints": null,
-  "protocolId": "template-local",
+  "protocolId": "template",
   "properties": {
     "ss58Format": 42,
     "tokenDecimals": 12,
     "tokenSymbol": "UNIT"
   },
-  "relay_chain": "rococo-local",
+  "relay_chain": "rococo",
   "para_id": 4215,
   "codeSubstitutes": {},
   "genesis": {
