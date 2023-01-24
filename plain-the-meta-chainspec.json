@@ -1,14 +1,14 @@
 {
-  "name": "The-Meta Testnet",
-  "id": "local_testnet",
-  "chainType": "Local",
+  "name": "The-Meta",
+  "id": "the_meta",
+  "chainType": "Live",
   "bootNodes": [],
   "telemetryEndpoints": null,
-  "protocolId": "template",
+  "protocolId": "the_meta",
   "properties": {
     "ss58Format": 42,
     "tokenDecimals": 12,
-    "tokenSymbol": "UNIT"
+    "tokenSymbol": "THEMETA"
   },
   "relay_chain": "rococo",
   "para_id": 4215,
@@ -27,12 +27,36 @@
           [
             "5HggXHZdjMsUxSF9Wbnw9TzC8xoSwqV5niGCRPVzQF5AYi8U",
             1152921504606846976
+          ],
+          [
+            "5HMkwChoKh5Fm5WzYhRmmmMem9do7qaMv839GwEsDEqj8UUf",
+            1152921504606846976
+          ]
+          ,
+          [
+            "5ELtuYNyXuDYSKfvWjR3QunBAvF72Qm38voAQA2z8zXrd46L",
+            1152921504606846976
+          ]
+          ,
+          [
+            "5CqiEni6uMPDihWWUmeAdwYFB2LJAXCDaJDuSZXnnFYo5QxB",
+            1152921504606846976
+          ]
+          ,
+          [
+            "5D7QLanGEVSWWgwBHceB213cVcSFbTuSRH7UEfqsqH1xZoHv",
+            1152921504606846976
           ]
         ]
       },
       "collatorSelection": {
         "invulnerables": [
-          "5HggXHZdjMsUxSF9Wbnw9TzC8xoSwqV5niGCRPVzQF5AYi8U"
+          "5HggXHZdjMsUxSF9Wbnw9TzC8xoSwqV5niGCRPVzQF5AYi8U",
+          "5HMkwChoKh5Fm5WzYhRmmmMem9do7qaMv839GwEsDEqj8UUf",
+          "5ELtuYNyXuDYSKfvWjR3QunBAvF72Qm38voAQA2z8zXrd46L",
+          "5CqiEni6uMPDihWWUmeAdwYFB2LJAXCDaJDuSZXnnFYo5QxB",
+          "5D7QLanGEVSWWgwBHceB213cVcSFbTuSRH7UEfqsqH1xZoHv"
+
         ],
         "candidacyBond": 16000000000,
         "desiredCandidates": 0
@@ -44,6 +68,34 @@
             "5HggXHZdjMsUxSF9Wbnw9TzC8xoSwqV5niGCRPVzQF5AYi8U",
             {
               "aura": "5HggXHZdjMsUxSF9Wbnw9TzC8xoSwqV5niGCRPVzQF5AYi8U"
+            }
+          ],
+          [
+            "5HMkwChoKh5Fm5WzYhRmmmMem9do7qaMv839GwEsDEqj8UUf",
+            "5HMkwChoKh5Fm5WzYhRmmmMem9do7qaMv839GwEsDEqj8UUf",
+            {
+              "aura": "5HMkwChoKh5Fm5WzYhRmmmMem9do7qaMv839GwEsDEqj8UUf"
+            }
+          ],
+          [
+            "5ELtuYNyXuDYSKfvWjR3QunBAvF72Qm38voAQA2z8zXrd46L",
+            "5ELtuYNyXuDYSKfvWjR3QunBAvF72Qm38voAQA2z8zXrd46L",
+            {
+              "aura": "5ELtuYNyXuDYSKfvWjR3QunBAvF72Qm38voAQA2z8zXrd46L"
+            }
+          ],
+          [
+            "5CqiEni6uMPDihWWUmeAdwYFB2LJAXCDaJDuSZXnnFYo5QxB",
+            "5CqiEni6uMPDihWWUmeAdwYFB2LJAXCDaJDuSZXnnFYo5QxB",
+            {
+              "aura": "5CqiEni6uMPDihWWUmeAdwYFB2LJAXCDaJDuSZXnnFYo5QxB"
+            }
+          ],
+          [
+            "5D7QLanGEVSWWgwBHceB213cVcSFbTuSRH7UEfqsqH1xZoHv",
+            "5D7QLanGEVSWWgwBHceB213cVcSFbTuSRH7UEfqsqH1xZoHv",
+            {
+              "aura": "5D7QLanGEVSWWgwBHceB213cVcSFbTuSRH7UEfqsqH1xZoHv"
             }
           ]
         ]
